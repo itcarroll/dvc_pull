@@ -1,0 +1,10 @@
+md5: b3d6ce71faa6d1e753f4d945177b8557
+frozen: true
+deps:
+- checksum: 98280636071171a96f795f96f658a650
+  size: 7506508
+  path: remote://pcc-ml-dat/AMT.0/AMT25_ctd.csv
+outs:
+- md5: 4d087d9756c56dd390efef6ae2f8127d
+  size: 7506508
+  path: AMT25_ctd.csv

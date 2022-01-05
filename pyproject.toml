@@ -6,10 +6,8 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-
-[tool.poetry.dependencies.dvc]
-git = "https://github.com/iterative/dvc.git"
-extras = ["gdrive"]
+dulwich = "0.20.26"
+dvc = {extras = ["gdrive"], version = "^2.9.3"}
 
 [tool.poetry.dev-dependencies]
 
